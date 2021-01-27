@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Lab_1.dir/myxxd.c.o  -o Lab_1 
+/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Lab_1.dir/myxxd.c.o  -o Lab_1 

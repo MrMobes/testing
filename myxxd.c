@@ -59,9 +59,10 @@ void printDataAsHex(unsigned char *data, size_t size) {
  * size: the size of the array
  **/
 void printDataAsChars(unsigned char *data, size_t size) {
-    for(unsigned int i=0; i < size-1; i++) {
+    for(unsigned int i=0; i < size; i++) {
         printf("%c", data[i]);
     }
+    printf("%c", data[size+1]);
 }
 
 void readAndPrintInputAsHex(FILE *input) {
